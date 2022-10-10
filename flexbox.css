@@ -1,0 +1,792 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcoral;
+    font-family: "Inter", sans-serif;
+}
+
+.cabecalhoPrincipal .container {
+	top: 0px;
+	position: fixed;
+	width: 98.5%;
+	height: auto;
+	font-size:  12px;
+	text-align: justify-all;
+	display: flex;
+	justify-content: space-around;
+	border: solid;
+    border-width: 2px;
+    border-color: blue;
+    background-color: lightblue;        ////////////////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////
+}
+
+.cabecalhoPrincipal-titulo {
+	text-align-last:  center;
+}
+
+.cabecalhoPrincipal-nav {
+	width: 60%;
+	height: 40px;
+	display: flex;
+	padding: 1px;
+	border: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    align-self: center;
+    background-color: lightskyblue;       ////////////////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////
+}
+
+.cabecalhoPrincipal-nav a {
+	margin: 5px;
+    text-align: center;
+}
+
+.cabecalhoPrincipal-nav-link {
+	width: 60%;
+	margin: 8%;
+	font-size: 11px;
+	padding: 5px;
+	border: solid;
+    border-width: 2px;
+    border-color: darkgray;	        
+    align-items: center;
+    text-align: center;
+    background-color: lightgrey;         ////////////////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<<<<<//////////////////////////////////////////////////////
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+}
+
+nav a:hover {
+    color: darkturquoise;
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: 1s all;
+}
+ 
+ .gap {
+ 	width: 100%;
+ 	height: 15px;
+ 	background-color: lightgoldenrodyellow;
+ }
+
+h2 {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: lightyellow;
+
+}
+
+ 
+
+.foto-texto-apto .container {
+	width: auto;
+	height: auto;
+	display: flex;
+    align-items: center;
+	justify-content: center;	
+    background-color: transparent; 
+}
+
+.texto {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	font-size: 15px;
+	padding: 10px;
+	height: auto;
+	
+}
+
+
+.texto img {
+	display: flex;
+	width: 250px;
+	height: 200px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+
+}
+
+.localizacao {
+	display: flex;
+	width: 30%;
+	padding: 10px;
+	text-align:justify;
+	font-style: italic;
+    border-width: 6px;
+    box-shadow: 10px 10px 10px 0 #000000;
+   	background-color: lightyellow;
+
+}
+
+.missao {
+	display: flex;
+	width: 30%;
+	color: red;
+	padding: 10px;
+	text-align:justify;
+	font-style: italic;
+	border-width: 1px;
+	box-shadow: 10px 10px 10px 0 #000000;
+	background-color: lightyellow;
+
+}
+
+
+.foto-capa-cidade-itens {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: auto;
+}
+
+img {
+	width: 250px;
+	height: 160px;
+	border: solid;
+	align-self: center;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 10px 10px 10px 0 #000000;
+
+}
+
+
+.mapa {
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+    background-color: lightyellow; 
+}
+
+
+.mapa h3 {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+
+}
+
+.mapa p {	
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+
+.mapa-conteudo {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+
+iframe {
+	border-width: 1px;
+	border-style: solid;
+	border-color: black;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+
+.principal-sala-apto {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: lightyellow;
+
+}
+
+.principal-sala-apto p {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+
+.sala  {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+} 
+
+.sala img {
+	display: flex;
+	justify-content: space-around;
+	width: 320px;
+	height: 220px;
+    margin: 35px;
+    border-width: 1px;
+	border-style: solid;
+	border-color: black;
+    box-shadow: 10px 10px 10px 0 #000000;
+} 
+
+.principal-quartos-apto {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: lightyellow;
+}
+
+.principal-quartos-apto p {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+
+.quartos  {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+} 
+
+.quartos img {
+	display: flex;
+	justify-content: space-around;
+	width: 320px;
+	height: 220px;	
+    margin: 35px;    
+    border-width: 1px;
+	border-style: solid;
+	border-color: black;
+    box-shadow: 10px 10px 10px 0 #000000;
+} 
+
+.principal-banheiros-apto {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: lightyellow;
+}
+
+.principal-banheiros-apto p {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+
+.banheiros  {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+} 
+
+.banheiros img {
+	display: flex;
+	justify-content: space-around;
+	width: 320px;
+	height: 220px;
+	margin: 35px;    
+    border-width: 1px;
+	border-style: solid;
+	border-color: black;
+    box-shadow: 10px 10px 10px 0 #000000;
+} 
+
+.principal-cozinha-apto {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: lightyellow;
+}
+
+.principal-cozinha-apto p {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+
+.cozinha  {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+} 
+
+.cozinha img {
+	display: flex;
+	justify-content: space-around;
+	width: 320px;
+	height: 220px;
+	margin: 35px;    
+    border-width: 1px;
+	border-style: solid;
+	border-color: black;
+    box-shadow: 10px 10px 10px 0 #000000;
+} 
+
+.principal-varanda-apto {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: lightyellow;
+}
+
+.principal-varanda-apto p {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+
+.varanda  {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+} 
+
+.varanda img {
+	display: flex;
+	justify-content: space-around;
+	width: 320px;
+	height: 220px;
+	margin: 35px;    
+    border-width: 1px;
+	border-style: solid;
+	border-color: black;
+    box-shadow: 10px 10px 10px 0 #000000;
+} 
+
+.principal-area-apto {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: lightyellow;
+}
+
+.principal-area-apto p {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+
+.area  {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+} 
+
+.area img {
+	display: flex;
+	justify-content: space-around;
+	width: 320px;
+	height: 220px;
+	margin: 35px;    
+    border-width: 1px;
+	border-style: solid;
+	border-color: black;
+    box-shadow: 10px 10px 10px 0 #000000;
+} 
+
+.principal-cidade {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: lightyellow;
+}
+
+.principal-cidade p {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+
+.cidade {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+} 
+
+.cidade img {
+	display: flex;
+	justify-content: space-around;
+	width: 320px;
+	height: 220px;
+	margin: 35px;    
+    border-width: 1px;
+	border-style: solid;
+	border-color: black;
+    box-shadow: 10px 10px 10px 0 #000000;
+} 
+
+.principal-historia-cidade {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: lightyellow;
+}
+
+.principal-historia-cidade p {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+
+.bandeira {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+} 
+
+.bandeira img {
+	display: flex;
+	justify-content: center;
+	width: 320px;
+	height: 220px;
+	border: solid;
+    border-width: 1px;
+    border-color: black;
+    box-shadow: 10px 10px 10px 0 #000000;
+} 
+
+.historia {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+    background-color: #F6F9F8;
+}
+
+.historia p {
+	width: 70%;
+	height: auto;
+	text-align: justify;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 20;
+	padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0 #000000;
+    background-color: lightyellow;  /////////////////////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+
+}
+
+.principal-praias {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	font-style: italic;
+	border-color: lightgrey;
+	background-color: lightyellow;
+}
+
+.principal-praias p {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+
+.praias {
+	width: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+} 
+
+.praias img {
+	display: flex;
+	justify-content: space-around;
+	width: 320px;
+	height: 220px;
+ 	margin: 35px;    
+    border-width: 1px;
+	border-style: solid;
+	border-color: black;
+    box-shadow: 10px 10px 10px 0 #000000;
+} 
+
+.video {
+	width: 100%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+    background-color: lightyellow; 
+}
+
+.video iframe {
+	align-self: center;
+	border-style: double;
+    border-width: 6px;
+    border-color: blue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.principal-praias-roteiros {
+	display: flex;
+	justify-content: space-around;
+	width: auto;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: lightyellow;
+}
+
+.principal-praias-roteiros p {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	font-size: 20px;
+	background-color: lightyellow;
+}
+
+.roteiros {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
+    background-color: #F6F9F8;
+}
+
+.roteiros p {
+	width: 70%;
+	height: auto;
+	text-align: justify;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 20;
+	padding: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 0 #000000;
+    background-color: lightyellow;  /////////////////////////////////////////<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+	border: solid;
+	border-color: black;
+	border-width: 3px;
+}
+
+.contato p {
+	width: 100%;
+	height: 60px;
+	display: flex;
+	font-size: 40px;
+	justify-content: center;
+	align-items: center;
+	border-width: 1px;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: lightyellow;
+}
+
+.credits {
+	position: relative;
+	display: flex;
+	align-self: center;
+	flex-direction: column;
+	width: 100%;
+	left: 400px;
+	height: auto;
+}
+
+
+
+
+ /***********************    mobile   ****************/
+
+ @media(max-width: 768px) {    
+
+
+.cabecalhoPrincipal .container {
+	position: relative;
+	flex-direction: column;
+	height: auto;
+}
+
+.cabecalhoPrincipal-nav {
+	align-self: center;
+	flex-direction: column;
+	height: auto;
+}
+
+.cabecalhoPrincipal-nav-link {
+	align-self: center;
+}
+
+h2 {
+	display: flex;
+	font-size: 20px;
+	align-self: center;
+	margin-left: auto;
+}
+
+.texto {
+	flex-direction: column;
+	height: auto; 
+}
+
+.localizacao {
+	width: auto;
+	margin-top: 20px;
+}
+
+.missao {
+	width: auto;
+}
+
+.foto-capa-cidade-itens {
+	display: flex;
+	height: 900px;
+	flex-direction: column;
+	align-self: center;
+	margin: 5px;
+}
+
+.mapa-conteudo {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.contato p {
+	font-size: 25px;
+}
+
+.principal-sala-apto p {
+	font-size: 13px;
+}
+
+.principal-quartos-apto p {
+	font-size: 13px;
+}
+
+.principal-cozinha-apto p {
+	font-size: 13px;
+}
+
+.principal-banheiros-apto p {
+	font-size: 13px;
+}
+
+.principal-varanda-apto p {
+	font-size: 13px;
+}
+
+.principal-area-apto p {
+	font-size: 13px;
+}
+
+.principal-cidade p {
+	font-size: 15px;
+}
+
+.principal-praias p {
+	font-size: 15px;
+}
+
+.principal-historia-cidade p {
+	font-size: 15px;
+}
+
+.principal-praias-roteiros p {
+	font-size: 15px;
+}
+
+.credits {
+	left: 100px;
+}
+
+}
+

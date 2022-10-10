@@ -1,0 +1,197 @@
+nav {
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+}
+
+nav a:hover {
+    color: darkturquoise;
+    text-decoration: underline;
+    transform: scale(1.5);
+    transition: 1s all;
+}
+ 
+
+ 
+#img1 {
+    position: absolute; 
+    width: 200px;
+    height: 150px;
+    left: 100px; 
+    top: 160px;
+}
+
+#img2 {
+    position: absolute; 
+    width: 200px;
+    height: 150px;
+    left: 400px;
+    top: 160px;
+}
+
+#img3 {
+    position: absolute; 
+    width: 200px;
+    height: 150px;
+    left: 700px;
+    top: 160px;
+}
+
+#img4 {
+    position: absolute; 
+    width: 200px;
+    height: 150px;
+    left: 1000px;
+    top: 160px;
+}
+
+
+
+
+#img5 {
+    position: absolute; 
+    width: 200px;
+    height: 150px;
+    left: 100px;
+    top: 360px;
+}
+#img6x {
+    position: absolute; 
+    width: 200px;
+    height: 150px;
+    left: 700px;
+    top: 360px;
+}
+#img7 {
+    position: absolute; 
+    width: 200px;
+    height: 150px;
+    left: 400px;
+    top: 360px;
+}
+
+
+#img8 {
+    position: absolute; 
+    width: 200px;
+    height: 150px;
+    left: 700px;
+    top: 360px;
+}
+
+
+#img9 {
+    position: absolute; 
+    width: 200px;
+    height: 150px;
+    left: 1000px;
+    top: 360px;
+}
+
+ 
+
+#img1, #img2, #img3, #img4,
+#img5, #img7, #img8, #img9 {
+    border-style: double;
+    border-width: 6px;
+    border-color: blue;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover,
+#img5:hover, #img7:hover, #img8:hover,
+#img9:hover {
+    transform: scale(1.5);
+    transition: 1s all;
+
+}
+ 
+
+main {
+    position: absolute;
+    padding: 1px;
+    top: 570px;
+    left: 200px;
+    text-align: center;
+    border-color: red;    
+    border-style: double;
+ }
+
+
+.titulo-principal {
+    text-align: center;
+    color: red;
+    text-decoration: underline;
+    font-size: 18px;
+    margin: 0 0 1em;
+    clear: left;
+
+}
+
+.principal {
+    text-align: justify;
+    padding: 35px;
+    background: #FEFEFE;
+    font-weight: bold;
+    width: 940px;
+    top: 550px;
+    margin: 0 auto;
+    background-color: lightgreen;
+}
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    text-align: justify-all;
+    font-weight: bold;
+}
+
+.principal p strong {
+    text-align: center;
+    
+}
+
+.principal em {
+    font-style: italic;
+    text-align: justify-all;
+}
+
+
+.titulo-a-cidade {
+    position: relative;
+    text-align: center;
+    text-align: center;
+    color: red;
+    bottom: 540px;
+    right: 25px;
+    text-decoration: underline;
+    font-size: 30px;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.bandeira {
+    width: 200px;
+    float: left;
+    margin: 0px 20px 20px 10px;
+    border-style: double;
+    border-width: 6px;
+    border-color: blue;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+
+.credits {
+    position: absolute;
+    top: 520px;
+    left:  370px;
+    text-align: center;
+    color: #0A3871;
+}

@@ -1,0 +1,276 @@
+
+/* configuração geral - desktop */
+
+*{
+    margin:  10px auto;
+
+
+}
+
+
+div.cabecalho {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    color: red ;
+    font-size: 25px;
+    flex-direction: row;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color: red;
+    background-color: peachpuff;
+} 
+
+#bomba {
+    width: 500px;
+    height:400px;   
+}
+
+div.corpo {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: peachpuff;
+} 
+
+div.bomba {
+    width: 100px;
+    height: 100px;
+}
+
+div.gasolina,  div.alcool  {
+    position: relative;
+    margin-left: 500px;
+    color: red;
+    width: 400px;
+    height:50px;  
+    text-align: center;
+
+}
+
+div.gasolina input,  div.alcool input {
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px;
+    background-color: lightgoldenrodyellow;
+}
+
+div.calcular {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    display: inline-flex;
+    left: 650px;
+    top: 30px;
+    flex-direction: row;
+}
+
+div.calcular input {
+    width: 100%;
+    height: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+#message {
+    position: relative;
+    width: 30%;
+    height: 70px;
+    padding: 10px;
+    top: 70px;
+    font-size: 18;
+    display: flex;
+    left: 480px;
+    text-align: center;
+    flex-direction: row;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+
+div.credits {
+    position: relative;
+    display: flex;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    top: 150px;
+    left: 350px;
+    border-color: blue;
+}
+
+/* configuração para tablet */
+
+@media screen and (max-width:800px) {
+
+
+#bomba {
+    margin-left: 30px;  
+}
+
+
+div.corpo {
+    margin-left: 100px;
+    
+} 
+
+    
+div.gasolina,  div.alcool  {
+    position: relative;
+    color: red;
+    margin-left: 100px;
+    top: 300px;
+    width: 400px;
+    height:50px;  
+    text-align: center;
+  
+}
+
+div.gasolina input,  div.alcool input {
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+div.calcular {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    display: inline-flex;
+    left: 250px;
+    top: 320px;
+    flex-direction: row;
+}
+
+div.calcular input {
+    width: 100%;
+    height: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+#message {
+    position: relative;
+    width: 60%;
+    height: 50px;
+    top: 350px;
+    display: flex;
+    left: 90px;
+    flex-direction: row;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+div.credits {
+    position: relative;
+    display: flex;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    top: 400px;
+    left: -15px;
+    border-color: blue;
+
+
+
+}
+
+/* configuração para celular */
+
+@media screen and (max-width:600px) { 
+
+div.cabecalho {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-left: 1px;
+    padding: 10px;
+    text-align: center;
+    font-size: 23px;
+    flex-direction: row;
+} 
+
+ 
+#bomba {
+    width: 490px;
+    height:400px; 
+    margin-left: -30px;  
+}
+
+
+div.corpo {
+    margin-left: 70px;
+    
+} 
+
+    
+div.gasolina,  div.alcool  {
+    position: relative;
+    margin-left: 20px;
+    top: 300px;
+    width: 400px;
+    height:50px;  
+    text-align: center;
+}
+
+div.gasolina input,  div.alcool input {
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+div.calcular {
+    position: relative;
+    width: 80px;
+    height: 40px;
+    display: inline-flex;
+    left: 200px;
+    top: 320px;
+    flex-direction: row;
+}
+
+div.calcular input {
+    width: 100%;
+    height: 100%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+
+div.calcular:hover {
+    background: lightgreen;
+    transform: scale(1.2);
+    transition: 1s all;
+}
+
+#message {
+    position: relative;
+    width: 70%;
+    height: 75px;
+    top: 350px;
+    left: 50px;
+    display: flex;
+    flex-direction: row;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+} 

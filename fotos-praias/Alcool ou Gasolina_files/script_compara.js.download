@@ -1,0 +1,55 @@
+const btn = document.querySelector("#send")
+btn.addEventListener("click", function(e) {
+e.preventDefault(); 
+e.stopPropagation();
+
+const name1 = document.querySelector("#name1");
+const value1 = name1.value;
+
+const name2 = document.querySelector("#name2");
+const value2 = name2.value;
+
+var value1gas = 0;
+var value2alc = 0
+
+value1gas = parseFloat(value1.replace("," , "."));
+value2alc = parseFloat(value2.replace("," , "."));
+
+var calculo = (value2alc) / (value1gas) * 100
+calculo = calculo.toFixed(2) 
+
+var combustivel = ""
+
+value1gas = parseFloat(value1.replace("." , ","));
+
+value2alc = parseFloat(value2.replace("." , ","));
+
+if (calculo <= 70) {
+    combustivel = "ÁLCOOL"
+    myFunction();
+    apagarCampos();
+ }
+    else
+
+        if (calculo > 70) {
+            combustivel = "GASOLINA"
+            myFunction();
+            apagarCampos();
+        }
+
+
+function myFunction() {
+    let userInput = document.querySelector("#userInput");
+    let message = document.querySelector("#message");
+    message.innerHTML = "Com a gasolina a (R$ " + value1 + ") e o álcool a (R$ " + value2 + ")" +  
+                        " temos uma proporção de (" + calculo + "%) e com isto é melhor abastecer com:" + "</br>" +"</br>" + 
+                        combustivel
+              
+ }                      
+ function apagarCampos(){
+   let name1 = document.querySelector("#name1");
+  name1.innerHTML = "";
+  let name2 = document.querySelector("#name2");
+  name2.innerHTML = "";
+   }
+})
