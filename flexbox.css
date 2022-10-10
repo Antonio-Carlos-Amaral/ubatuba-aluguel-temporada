@@ -90,9 +90,7 @@ h2 {
 
 }
 
- 
-
-.foto-texto-apto .container {
+ .foto-texto-apto .container {
 	width: auto;
 	height: auto;
 	display: flex;
@@ -432,7 +430,7 @@ iframe {
 
 .area  {
 	width: auto;
-	display: flex;
+*	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
 	padding: 20px;
@@ -740,6 +738,13 @@ h2 {
 	justify-content: center;
 }
 
+
+iframe {
+	width: 80%;
+	height: 200px;
+	
+}
+
 .contato p {
 	font-size: 25px;
 }
@@ -795,7 +800,6 @@ h2 {
 /*       configuração para celular          */
 /********************************************/
 @media screen and (max-width:600px) {
-
 
 
 .cabecalhoPrincipal .container {
