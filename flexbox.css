@@ -671,130 +671,18 @@ iframe {
 }
 
 .credits {
-	position: relative;
 	display: flex;
-	align-self: center;
 	flex-direction: column;
-	width: 100%;
-	left: 400px;
-	height: auto;
+	align-items: center;
 }
 
 
 
 
-/********************************************/
-/*       configuração para tablet           */
-/********************************************/
-@media screen and (max-width:800px) {
+ /***********************    mobile   ****************/
 
-.cabecalhoPrincipal .container {
-	position: relative;
-	flex-direction: column;
-	height: auto;
-}
+ @media(max-width: 768px) {    
 
-.cabecalhoPrincipal-nav {
-	align-self: center;
-	flex-direction: column;
-	height: auto;
-}
-
-.cabecalhoPrincipal-nav-link {
-	align-self: center;
-}
-
-h2 {
-	display: flex;
-	font-size: 20px;
-	align-self: center;
-	margin-left: auto;
-}
-
-.texto {
-	flex-direction: column;
-	height: auto; 
-}
-
-.localizacao {
-	width: auto;
-	margin-top: 20px;
-}
-
-.missao {
-	width: auto;
-}
-
-.foto-capa-cidade-itens {
-	display: flex;
-	height: 900px;
-	flex-direction: column;
-	align-self: center;
-	margin: 5px;
-}
-
-.mapa-conteudo {
-	width: 100%;
-	height: auto;
-	display: flex;
-	justify-content: center;
-}
-
-.contato p {
-	font-size: 25px;
-}
-
-.principal-sala-apto p {
-	font-size: 13px;
-}
-
-.principal-quartos-apto p {
-	font-size: 13px;
-}
-
-.principal-cozinha-apto p {
-	font-size: 13px;
-}
-
-.principal-banheiros-apto p {
-	font-size: 13px;
-}
-
-.principal-varanda-apto p {
-	font-size: 13px;
-}
-
-.principal-area-apto p {
-	font-size: 13px;
-}
-
-.principal-cidade p {
-	font-size: 15px;
-}
-
-.principal-praias p {
-	font-size: 15px;
-}
-
-.principal-historia-cidade p {
-	font-size: 15px;
-}
-
-.principal-praias-roteiros p {
-	font-size: 15px;
-}
-
-.credits {
-	left: 100px;
-}
-
-}
-
-
-/********************************************/
-/*       configuração para celular          */
-/********************************************/
-@media screen and (max-width:600px) {
 
 .cabecalhoPrincipal .container {
 	position: relative;
